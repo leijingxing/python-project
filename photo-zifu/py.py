@@ -47,11 +47,3 @@ if __name__ == '__main__':
     txt += '\n'
   
   print txt 
-  
-  # 字符画输出到文件 
-  if OUTPUT: 
-    with open(OUTPUT,'w') as f: 
-      f.write(txt) 
-  else: 
-    with open("output.txt", 'w') as f: 
-      f.write(txt)
