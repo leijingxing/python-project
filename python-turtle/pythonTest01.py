@@ -188,6 +188,8 @@ turtle.fd(80)
 
 turtle.pendown()
 
+turtle.pencolor("red")
+
 turtle.write("小花花送给你")
 
 
